@@ -262,3 +262,373 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 327.920170 seconds.
+  path: Assets/Scripts/GameBrains/Actuators/Actuator.cs
+  artifactKey: Guid(f1af0b14af288413f84844978393bebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/Actuators/Actuator.cs using Guid(f1af0b14af288413f84844978393bebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fe59514b1fe05d12b3097ddd1cedc8') in 0.585263 seconds 
+  Import took 0.625201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.743002 seconds.
+  path: Assets/Scripts/GameBrains/Actuators/CleanActuator.cs
+  artifactKey: Guid(9bddaddf0e3a74724b5da400c9ccc9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/Actuators/CleanActuator.cs using Guid(9bddaddf0e3a74724b5da400c9ccc9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa4d3540fd344b3a3a19a256b5ef7d5') in 0.008243 seconds 
+  Import took 0.014689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.497757 seconds.
+  path: Assets/Scripts/GameBrains/Actuators/SlerpLookAtActuator.cs
+  artifactKey: Guid(fb15cfca947984fc3b0e363e00ee7ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/Actuators/SlerpLookAtActuator.cs using Guid(fb15cfca947984fc3b0e363e00ee7ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703243d6af591af7447ecd9231b32e35') in 0.007446 seconds 
+  Import took 0.012436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.335426 seconds.
+  path: Assets/Scripts/GameBrains/Actuators/Motion
+  artifactKey: Guid(fac83f7fc5a2442aba20ffa1062aae62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/Actuators/Motion using Guid(fac83f7fc5a2442aba20ffa1062aae62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c72b6ba60ce6bb6d5f6ce98d5b6df64') in 0.003040 seconds 
+  Import took 0.009505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.567775 seconds.
+  path: Assets/Scripts/GameBrains/Actuators/Motion/Movers/UsingVector2/Movers/CharacterControllerMover.cs
+  artifactKey: Guid(ca93e007123ed47ce90611fc8f5462fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/Actuators/Motion/Movers/UsingVector2/Movers/CharacterControllerMover.cs using Guid(ca93e007123ed47ce90611fc8f5462fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdfeec5ccbec1d33dbce413f490e470') in 0.007210 seconds 
+  Import took 0.011796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.140337 seconds.
+  path: Assets/Scripts/GameBrains/Actuators/Motion/Movers/UsingVector2/Movers/Mover.cs
+  artifactKey: Guid(34ca10e38e7f4448c94117868d5ea1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/Actuators/Motion/Movers/UsingVector2/Movers/Mover.cs using Guid(34ca10e38e7f4448c94117868d5ea1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3b4be2d5f633cb97c2665ffefe8deb') in 0.004266 seconds 
+  Import took 0.008777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.452180 seconds.
+  path: Assets/Scripts/GameBrains/Actuators/Motion/Movers/UsingVector2/Movers/RigidbodyMover.cs
+  artifactKey: Guid(f8a0d1430a7df4b328fbf191a594a21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/Actuators/Motion/Movers/UsingVector2/Movers/RigidbodyMover.cs using Guid(f8a0d1430a7df4b328fbf191a594a21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce37fe10e4398afb9c6f9725d1779a78') in 0.008727 seconds 
+  Import took 0.015859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.052734 seconds.
+  path: Assets/Scripts/GameBrains/Actuators/Motion/Movers/UsingVector2/Movers/TransformTranslateMover.cs
+  artifactKey: Guid(f4d1a3a2573964190920f887e8c72e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/Actuators/Motion/Movers/UsingVector2/Movers/TransformTranslateMover.cs using Guid(f4d1a3a2573964190920f887e8c72e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac9bc6da7bd2f89acfbdca5effbae82') in 0.004810 seconds 
+  Import took 0.007891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.580246 seconds.
+  path: Assets/Scripts/GameBrains/Entities/V0/Agent.cs
+  artifactKey: Guid(e2fed10171f02476b8c46b3ba7aacd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/Entities/V0/Agent.cs using Guid(e2fed10171f02476b8c46b3ba7aacd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bf175371d2cfd3d19aa057aa224a49') in 0.006530 seconds 
+  Import took 0.011897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.973844 seconds.
+  path: Assets/Scripts/GameBrains/Entities/V0/Entity.cs
+  artifactKey: Guid(5a9f084991dae403b9f5087b183f74e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/Entities/V0/Entity.cs using Guid(5a9f084991dae403b9f5087b183f74e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98f560eb1798108f0e4c86f05906723') in 0.006718 seconds 
+  Import took 0.013017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.597716 seconds.
+  path: Assets/Scripts/GameBrains/Entities/V0/TargetEntity.cs
+  artifactKey: Guid(16e8bbd56b9d34fc0957ce3012c25b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/Entities/V0/TargetEntity.cs using Guid(16e8bbd56b9d34fc0957ce3012c25b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd014bc2a7ae72634a33936083fa790a2') in 0.010116 seconds 
+  Import took 0.016169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41775.501132 seconds.
+  path: Assets/Scenes/A1AgentsSolution.unity
+  artifactKey: Guid(8d83283b35dcc4205a5fe04442761339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/A1AgentsSolution.unity using Guid(8d83283b35dcc4205a5fe04442761339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626adedd31bc6106c2f2b0803846b6c3') in 0.283677 seconds 
+  Import took 0.357420 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-02-04 20:05:14.298 Unity[17435:1529627] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000004d3560 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1332ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (1092ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1780 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.5 MB.
+System memory in use after: 169.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2287.
+Total: 2.743296 ms (FindLiveObjects: 0.199429 ms CreateObjectMapping: 0.052938 ms MarkObjects: 2.428153 ms  DeleteObjects: 0.061502 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004207 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-02-04 20:06:34.343 Unity[17435:1529627] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000004d1b90 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.785 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1786ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1436ms)
+			LoadAssemblies (202ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (552ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (440ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (327ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1780 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.7 MB.
+System memory in use after: 169.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 4.280664 ms (FindLiveObjects: 0.222548 ms CreateObjectMapping: 0.078419 ms MarkObjects: 3.916974 ms  DeleteObjects: 0.060727 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 127.851232 seconds.
+  path: Assets/Scripts/GameBrains/Actions/Action.cs
+  artifactKey: Guid(8f953cfe54f03b84dbf1b9b62992160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/Actions/Action.cs using Guid(8f953cfe54f03b84dbf1b9b62992160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ab9d5eb10540b8d8dc5bcae7ac8e4c') in 0.031776 seconds 
+  Import took 0.037982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.784642 seconds.
+  path: Assets/Scripts/GameBrains/Actions/ChangeAccelerationAction.cs
+  artifactKey: Guid(f1b9c01b3fb5c4ca384aecff0cfde3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/Actions/ChangeAccelerationAction.cs using Guid(f1b9c01b3fb5c4ca384aecff0cfde3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04b897a6c5d909886325600cab282cc') in 0.041480 seconds 
+  Import took 0.090366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 887.471489 seconds.
+  path: Assets/Resources/Materials/Visualization/CastMaterial.mat
+  artifactKey: Guid(f5d04dc3507894b69b539e97749deb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Visualization/CastMaterial.mat using Guid(f5d04dc3507894b69b539e97749deb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01fb738b83140773fbff0313baecfdc') in 7.189071 seconds 
+  Import took 7.242211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.616632 seconds.
+  path: Assets/Textures/Terrain/CheckersBlackTexture.png
+  artifactKey: Guid(b31461eed333a482a8b0c7cca8ab9b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/CheckersBlackTexture.png using Guid(b31461eed333a482a8b0c7cca8ab9b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1e7f8910b56b3328d3b35ec9626012') in 4.492049 seconds 
+  Import took 4.507470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Textures/Terrain/Sand (Beach2).jpg
+  artifactKey: Guid(a27b4cd9ec6c84547be57f16a0cd03e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/Sand (Beach2).jpg using Guid(a27b4cd9ec6c84547be57f16a0cd03e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba802cf4abb47b915d7d25c83139aa92') in 4.806700 seconds 
+  Import took 4.821242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.273415 seconds.
+  path: Assets/Scenes/A1AgentsStarterTemplate.unity
+  artifactKey: Guid(dd02b6191de564a32925e6932eeda64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/A1AgentsStarterTemplate.unity using Guid(dd02b6191de564a32925e6932eeda64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4722f6525baae933ec97a14b7b08b15e') in 0.002916 seconds 
+  Import took 0.009208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 567.889583 seconds.
+  path: Assets/Scripts/GameBrains/InputManagement/InputActions.inputactions
+  artifactKey: Guid(3184022ca0ba24d76bce86d0c41950dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/InputManagement/InputActions.inputactions using Guid(3184022ca0ba24d76bce86d0c41950dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf91760671a34f620c0975cd83a3df4') in 0.625922 seconds 
+  Import took 0.663439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.341103 seconds.
+  path: Assets/Scripts/GameBrains/InputManagement/InputActions.cs
+  artifactKey: Guid(c75e3638590a0474ebc045a1b024ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/InputManagement/InputActions.cs using Guid(c75e3638590a0474ebc045a1b024ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd437f07e3bda376db3c09f03f6ee77f') in 0.012277 seconds 
+  Import took 0.017492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.056565 seconds.
+  path: Assets/Scripts/GameBrains/GameManagement/GameManager.cs
+  artifactKey: Guid(68045ca39218e4362b897e65cf7ddd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/GameManagement/GameManager.cs using Guid(68045ca39218e4362b897e65cf7ddd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2b14c3e97094649a6f205531977787') in 0.009302 seconds 
+  Import took 0.015137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.709238 seconds.
+  path: Assets/Scripts/GameBrains/GameManagement/InGameMenuController.cs
+  artifactKey: Guid(1b629a999159b445492934a19d367ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBrains/GameManagement/InGameMenuController.cs using Guid(1b629a999159b445492934a19d367ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5f06423a6d7ec7b724a42ade334776') in 0.006616 seconds 
+  Import took 0.010812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 403.329160 seconds.
+  path: Assets/Prefabs/Battlefield/Walls/WallCollection/BasePlatform.prefab
+  artifactKey: Guid(5016ca4821d5a4464a219adbb35a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Battlefield/Walls/WallCollection/BasePlatform.prefab using Guid(5016ca4821d5a4464a219adbb35a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40c206a26d30c8a6e2fe6d61bb03565') in 0.427569 seconds 
+  Import took 0.456620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.668274 seconds.
+  path: Assets/Prefabs/Weebles/Weeble/Blue/BlueWeebleJanitor Variant.prefab
+  artifactKey: Guid(01b4138c5b8694bab974c047ecafa29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weebles/Weeble/Blue/BlueWeebleJanitor Variant.prefab using Guid(01b4138c5b8694bab974c047ecafa29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fa18462d1693dbfba99ae3aefa05e4') in 0.460049 seconds 
+  Import took 0.471523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Resources/ScriptableObjects/Audio/ButtonClick.asset
+  artifactKey: Guid(2058189a06a4e4bd6872d81d82f3b65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ScriptableObjects/Audio/ButtonClick.asset using Guid(2058189a06a4e4bd6872d81d82f3b65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef41a427201adbee9918ed9c17fbc8f7') in 0.100032 seconds 
+  Import took 0.107848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Prefabs/Weebles/Weeble/Red/RedWeebleJanitor Variant.prefab
+  artifactKey: Guid(ddb9ccca2513f45da98dc07f498a025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weebles/Weeble/Red/RedWeebleJanitor Variant.prefab using Guid(ddb9ccca2513f45da98dc07f498a025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc02a9ae22e624217143a09c8dd69db') in 0.115808 seconds 
+  Import took 0.127552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Sprites/HalfButtonR.png
+  artifactKey: Guid(4bff87bdcc64efd4e8931bc7efe8c05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/HalfButtonR.png using Guid(4bff87bdcc64efd4e8931bc7efe8c05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e64d973d3ed55abef145d400daeea5') in 0.057047 seconds 
+  Import took 0.060927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/Audio/buttonClick.mp3
+  artifactKey: Guid(8c3bb00127444c243b4fd6ea295a7d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/buttonClick.mp3 using Guid(8c3bb00127444c243b4fd6ea295a7d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dd59f5da56f017ecc6fe1caf28d716') in 1.275025 seconds 
+  Import took 1.283280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Prefabs/Weebles/Hospital/Janitor.prefab
+  artifactKey: Guid(0e69bca49bcb34181b3facefd66b2a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weebles/Hospital/Janitor.prefab using Guid(0e69bca49bcb34181b3facefd66b2a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87468201e5c2e68ea80225eea2d35237') in 0.069517 seconds 
+  Import took 0.076228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Prefabs/Weebles/Hospital/Doctor.prefab
+  artifactKey: Guid(5fc9d8b79e21048948624103e2ea725c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weebles/Hospital/Doctor.prefab using Guid(5fc9d8b79e21048948624103e2ea725c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e821ba7f08c62eff6214ac88086c0293') in 0.024007 seconds 
+  Import took 0.028114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Prefabs/Weebles/WeebleAgent/Blue/BlueWeebleJanitorAgent Variant.prefab
+  artifactKey: Guid(e92eec691202542f2a7147577ed9a8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weebles/WeebleAgent/Blue/BlueWeebleJanitorAgent Variant.prefab using Guid(e92eec691202542f2a7147577ed9a8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9114ee12952cc26196e16d259e556a9e') in 0.101210 seconds 
+  Import took 0.114339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Sprites/HalfButtonL.png
+  artifactKey: Guid(57acb1e81135a0543aa6cac4c8399e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/HalfButtonL.png using Guid(57acb1e81135a0543aa6cac4c8399e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b8f387ebb603eae756aab14b494993') in 0.025850 seconds 
+  Import took 0.030811 seconds .
+
