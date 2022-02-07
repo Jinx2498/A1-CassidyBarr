@@ -17,10 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Loading.unity
     guid: ab0d862562bee487eaf36116ee14b02d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/A1AgentsStarterTemplate.unity
     guid: dd02b6191de564a32925e6932eeda64c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/A1AgentsSolution.unity
     guid: 8d83283b35dcc4205a5fe04442761339
+  - enabled: 1
+    path: Assets/Scenes/MyJanitorA1.unity
+    guid: b4b71e99259234a5fa30e3b722ed954f
   m_configObjects: {}

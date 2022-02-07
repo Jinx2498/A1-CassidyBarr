@@ -5,31 +5,35 @@ using UnityEngine;
 namespace GameBrains.Sensors
 {
     // TODO for A1: Add a new sensor class for detecting dirty tiles. Use TargetEntitySensor as a starting point.
-    public class DirtyTileSensor : Sensors {
+    public class DirtyTileSensor : Sensor {
         [SerializeField] float sensorRange = 20.0f;
-        public TargetEntity dirtyTile;
-        public override Percept Sense()
+        [SerializeField] public CleanableTile dirtyTile;
+
+        [SerializeField] Transform targetTransform;
+
+       
+        public void GameObject(GameObject go) {
+            dirtyTile = go.GetComponent<CleanableTile>();
+            targetTransform = go.GetComponent<Transform>();
+        }
+        public Percept Sense()
         {
-            GameObject[] go;
-            go = GameObject.FindGameObjectsWithTag("DirtyTile");
-            dirtyTile = go;
-    
-            if (dirtyTile != null)
-            {
-                var dirtyTilePercept = new DirtyTilePercept();
-                var agentPosition = Agent.transform.position;
 
-                var targetDistance = Vector3.Distance(agentPosition, dirtyTile.transform.position);
+            var dirtyTilePercept = new DirtyTilePercept();
+            var agentPosition = Agent.transform.position;
 
-                // Are we within range?
-                if (targetDistance <= sensorRange && dirtyTile != null)
+            var targetDistance = Vector3.Distance(agentPosition, targetTransform.position);
+
+            // Are we within range?
+            if (targetDistance <= sensorRange && targetTransform != null)
                 {
-                    targetEntityPercept.dirtyTile = dirtyTile;
-                    return dirtyTilePercept;
-                }
+                dirtyTilePercept.NeedsCleaning = false;
+                dirtyTilePercept.DirtAmt = dirtyTile.GetCurrentDirtAmt();
+                dirtyTilePercept.DirtinessLevel = dirtyTile.GetDirtinessState();            
             }
 
-            return null;
+
+            return dirtyTilePercept;
         }
 
     }

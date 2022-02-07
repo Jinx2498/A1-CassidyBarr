@@ -48,14 +48,20 @@ namespace GameBrains.Actuators.Motion.Movers.UsingVector3.Movers
             switch (action)
             {
                 case ChangeVelocityAction changeVelocityAction:
+
+                    
                     // TODO for A1: Change the velocity. Set completion status.
                     // TODO for A1 (optional): Limit velocity change.
+                    velocity = changeVelocityAction.desiredVelocity;
+                    changeVelocityAction.completionStatus = Action.CompletionsStates.Complete;
                     return;
                 case ChangeAccelerationAction changeAccelerationAction:
 
-                    
+
                     // TODO for A1: Change the acceleration. Set completion status.
                     // TODO for A1 (optional): Limit acceleration change.
+                    acceleration = changeAccelerationAction.desiredAcceleration;
+                    changeAccelerationAction.completionStatus = Action.CompletionsStates.Complete;
                     return;
             }
         }

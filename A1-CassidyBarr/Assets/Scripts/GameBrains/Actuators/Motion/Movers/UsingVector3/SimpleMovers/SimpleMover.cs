@@ -42,11 +42,15 @@ namespace GameBrains.Actuators.Motion.Movers.UsingVector3.SimpleMovers
                     // TODO for A1: Change the speed using changeSpeedAction.desiredSpeed.
                     // TODO for A1: Set completion status as appropriate.
                     // TODO for A1 (optional): Limit speed change.
+                    Speed = changeSpeedAction.desiredSpeed;
+                    changeSpeedAction.completionStatus = Action.CompletionsStates.Complete;
                     return;
                 case ChangeDirectionAction changeDirectionAction:
                     // TODO for A1: Change the direction using changeDirectionAction.desiredDirection.
                     // TODO for A1: Set completion status as appropriate.
                     // TODO for A1 (optional): Limit direction change.
+                    Direction = (Vector3)changeDirectionAction.desiredDirection;
+                    changeDirectionAction.completionStatus = Action.CompletionsStates.Complete;
                     return;
             }
         }

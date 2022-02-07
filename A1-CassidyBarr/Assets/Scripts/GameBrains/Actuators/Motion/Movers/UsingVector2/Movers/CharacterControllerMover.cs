@@ -47,8 +47,6 @@ namespace GameBrains.Actuators.Motion.Movers.UsingVector2.Movers
                 // characterController.Move(positionOffsetXYZ);
 
                 //TODO: Handle gravity.
-                positionOffset = (Velocity * deltaTime) + (Acceleration * halfDeltaTimeSquared) + (gravity * deltaTime);
-                characterController.Move(positionOffset / deltaTime);
 
             }
         }

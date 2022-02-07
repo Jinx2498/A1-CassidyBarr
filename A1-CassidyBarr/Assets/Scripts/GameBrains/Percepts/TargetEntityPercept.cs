@@ -12,8 +12,10 @@ namespace GameBrains.Percepts
     public class DirtyTilePercept : Percept
     {
         public TargetEntity dirtyTile;
-        public float Dirtiness{ get; set; }
-        public bool IsClean{ get; set; }
+
+        public float DirtAmt{ get; set; }
+        public float DirtinessLevel{ get; set; }
+        public bool NeedsCleaning{ get; set; }
 
     }
 }

@@ -16,6 +16,7 @@ TagManager:
   - Blue Spawnpoint
   - Red Spawnpoint
   - Wall
+  - DirtyTile
   layers:
   - Default
   - TransparentFX

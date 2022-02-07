@@ -1,0 +1,1620 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - GameBrains.Actuators.CleanActuator
+    - GameBrains.Actuators.Motion.Movers.UsingVectorXZ.SimpleMovers.CharacterControllerSimpleMover
+    - GameBrains.Actuators.SlerpLookAtActuator
+    - GameBrains.Audio.AudioManager
+    - GameBrains.Audio.AudioPlayer
+    - GameBrains.Cameras.Billboard
+    - GameBrains.Cameras.FadeOutLineOfSight
+    - GameBrains.Cameras.NewOrbit
+    - GameBrains.Cameras.Orbit
+    - GameBrains.Cameras.OverheadFollow
+    - GameBrains.Cameras.OverheadZoomAndPan
+    - GameBrains.Cameras.SimpleFollow
+    - GameBrains.Cameras.SmoothFollow
+    - GameBrains.DebuggingTools.MonoBehaviourEnabler
+    - GameBrains.DebuggingTools.RevealHiddenGameObjects
+    - GameBrains.DebuggingTools.Visualization.BoxCaster
+    - GameBrains.DebuggingTools.Visualization.CapsuleCaster
+    - GameBrains.DebuggingTools.Visualization.LineCaster
+    - GameBrains.DebuggingTools.Visualization.RayCaster
+    - GameBrains.DebuggingTools.Visualization.SphereCaster
+    - GameBrains.Entities.V0.Agent
+    - GameBrains.Entities.V0.CleanableTile
+    - GameBrains.Entities.V0.TargetEntity
+    - GameBrains.GUI.FpsViewer
+    - GameBrains.GUI.MessageViewer
+    - GameBrains.GUI.WeebleConsole
+    - GameBrains.GameManagement.GameManager
+    - GameBrains.GameManagement.InGameMenuController
+    - GameBrains.Messages.MessageDisplayer
+    - GameBrains.Messages.MessageQueue
+    - GameBrains.Minds.SeekerMind
+    - GameBrains.Minds.SimpleReflexMind
+    - GameBrains.PerformanceMeasures.PerformanceCriteria
+    - GameBrains.PerformanceMeasures.PerformanceMeasure
+    - GameBrains.SceneManagement.LoadProgress
+    - GameBrains.SceneManagement.LoaderCallback
+    - GameBrains.SceneManagement.MenuController
+    - GameBrains.SceneManagement.PauseManager
+    - GameBrains.SceneManagement.SceneManager
+    - GameBrains.Sensors.PositionSensor
+    - GameBrains.Sensors.TargetEntitySensor
+    - GameBrains.Weebles.Health
+    - GameBrains.Weebles.HealthBar
+    - GameBrains.Weebles.Weeble
+    - Testing.TestBoxCastChecker
+    - Testing.TestBoxCastVisualizer
+    - Testing.TestCapsuleCastChecker
+    - Testing.TestCapsuleCastVisualizer
+    - Testing.TestChangeSpeedAction
+    - Testing.TestExtendedMonoBehaviourLogging
+    - Testing.TestLineCastChecker
+    - Testing.TestLineCastVisualizer
+    - Testing.TestRayCastChecker
+    - Testing.TestRayCastVisualizer
+    - Testing.TestSphereCastChecker
+    - Testing.TestSphereCastVisualizer
+    Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
+    - UnityEngine.InputSystem.InputSettings
+    - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+  sceneClasses:
+    Assets/Scenes/GameBrains.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 3588}
+    - Class: 114
+      Script: {instanceID: 3624}
+    - Class: 114
+      Script: {instanceID: 3802}
+    - Class: 114
+      Script: {instanceID: 3886}
+    - Class: 114
+      Script: {instanceID: 3946}
+    - Class: 114
+      Script: {instanceID: 4000}
+    - Class: 114
+      Script: {instanceID: 4062}
+    - Class: 114
+      Script: {instanceID: 4146}
+    - Class: 114
+      Script: {instanceID: 4172}
+    - Class: 114
+      Script: {instanceID: 4524}
+    - Class: 114
+      Script: {instanceID: 4536}
+    - Class: 114
+      Script: {instanceID: 4572}
+    - Class: 114
+      Script: {instanceID: 4674}
+    - Class: 114
+      Script: {instanceID: 4726}
+    - Class: 114
+      Script: {instanceID: 4842}
+    - Class: 114
+      Script: {instanceID: 4870}
+    - Class: 114
+      Script: {instanceID: 5186}
+    - Class: 114
+      Script: {instanceID: 5424}
+    - Class: 114
+      Script: {instanceID: 5474}
+    - Class: 114
+      Script: {instanceID: 5480}
+    - Class: 114
+      Script: {instanceID: 5574}
+    - Class: 114
+      Script: {instanceID: 5878}
+    - Class: 114
+      Script: {instanceID: 6196}
+    - Class: 114
+      Script: {instanceID: 6324}
+    - Class: 114
+      Script: {instanceID: 6622}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Loading.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 3624}
+    - Class: 114
+      Script: {instanceID: 3788}
+    - Class: 114
+      Script: {instanceID: 3886}
+    - Class: 114
+      Script: {instanceID: 4524}
+    - Class: 114
+      Script: {instanceID: 4726}
+    - Class: 114
+      Script: {instanceID: 4842}
+    - Class: 114
+      Script: {instanceID: 6368}
+    - Class: 114
+      Script: {instanceID: 6536}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 3624}
+    - Class: 114
+      Script: {instanceID: 4184}
+    - Class: 114
+      Script: {instanceID: 4524}
+    - Class: 114
+      Script: {instanceID: 4842}
+    - Class: 114
+      Script: {instanceID: 5186}
+    - Class: 114
+      Script: {instanceID: 5500}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/MyJanitorA1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 3596}
+    - Class: 114
+      Script: {instanceID: 3624}
+    - Class: 114
+      Script: {instanceID: 3744}
+    - Class: 114
+      Script: {instanceID: 3886}
+    - Class: 114
+      Script: {instanceID: 3904}
+    - Class: 114
+      Script: {instanceID: 3978}
+    - Class: 114
+      Script: {instanceID: 4002}
+    - Class: 114
+      Script: {instanceID: 4108}
+    - Class: 114
+      Script: {instanceID: 4420}
+    - Class: 114
+      Script: {instanceID: 4524}
+    - Class: 114
+      Script: {instanceID: 4614}
+    - Class: 114
+      Script: {instanceID: 4726}
+    - Class: 114
+      Script: {instanceID: 4772}
+    - Class: 114
+      Script: {instanceID: 4776}
+    - Class: 114
+      Script: {instanceID: 4842}
+    - Class: 114
+      Script: {instanceID: 4848}
+    - Class: 114
+      Script: {instanceID: 5074}
+    - Class: 114
+      Script: {instanceID: 5094}
+    - Class: 114
+      Script: {instanceID: 5176}
+    - Class: 114
+      Script: {instanceID: 5184}
+    - Class: 114
+      Script: {instanceID: 5186}
+    - Class: 114
+      Script: {instanceID: 5196}
+    - Class: 114
+      Script: {instanceID: 5588}
+    - Class: 114
+      Script: {instanceID: 5624}
+    - Class: 114
+      Script: {instanceID: 5662}
+    - Class: 114
+      Script: {instanceID: 5710}
+    - Class: 114
+      Script: {instanceID: 5842}
+    - Class: 114
+      Script: {instanceID: 5868}
+    - Class: 114
+      Script: {instanceID: 5934}
+    - Class: 114
+      Script: {instanceID: 5958}
+    - Class: 114
+      Script: {instanceID: 6026}
+    - Class: 114
+      Script: {instanceID: 6124}
+    - Class: 114
+      Script: {instanceID: 6130}
+    - Class: 114
+      Script: {instanceID: 6362}
+    - Class: 114
+      Script: {instanceID: 6392}
+    - Class: 114
+      Script: {instanceID: 6460}
+    - Class: 114
+      Script: {instanceID: 6470}
+    - Class: 114
+      Script: {instanceID: 6662}
+    - Class: 114
+      Script: {instanceID: 6770}
+    - Class: 114
+      Script: {instanceID: 6778}
+    - Class: 114
+      Script: {instanceID: 6826}
+    - Class: 114
+      Script: {instanceID: 6952}
+    - Class: 114
+      Script: {instanceID: 6996}
+    - Class: 114
+      Script: {instanceID: 7064}
+    - Class: 114
+      Script: {instanceID: 7070}
+    - Class: 114
+      Script: {instanceID: 7138}
+    - Class: 114
+      Script: {instanceID: 146044}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Options.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 3624}
+    - Class: 114
+      Script: {instanceID: 4184}
+    - Class: 114
+      Script: {instanceID: 4524}
+    - Class: 114
+      Script: {instanceID: 4842}
+    - Class: 114
+      Script: {instanceID: 5186}
+    - Class: 114
+      Script: {instanceID: 5500}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: f527af7a4abef58874d68c408fa77e30
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Cameras
+    className: SimpleFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 1e7624303440823638b79993e693f1c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.DebuggingTools.Visualization
+    className: LineCaster
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: BaseInputOverride
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: c24a778d9aa393e11e54bff320ca63de
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInput
+  - hash:
+      serializedVersion: 2
+      Hash: e5b5884b4f6010bbf5eb15d3e79bdf5b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVector3.SimpleMovers
+    className: CharacterControllerSimpleMover
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 4f6a3785e63a74c6340642f922569497
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Messages
+    className: MessageDisplayer
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: ab01c50c0b49ba5b3f788715179be219
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Weebles
+    className: MoveInCircles
+  - hash:
+      serializedVersion: 2
+      Hash: eff5b929014d8050b4710e6fd4019a7f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Visualization
+    className: CapsuleCastChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 24acb9eb01346ede0242827507e802d0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Cameras
+    className: SmoothFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 9b06583966b5c25325233c4ef1ab1fd4
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.HID.Editor
+    className: HIDDescriptorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 29cb5ccadda8ab62d8dba6d24d61faa4
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: VirtualMouseInput
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: a000078d0ffb4435d184603163c0d510
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVector3.SimpleMovers
+    className: RigidbodySimpleMover
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9383040fd050b0c9ee0f2ce2c463838a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Testing
+    className: TestRayCastChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 16aacfa6d65e5e3a5cc8249a54aaeacd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Cameras
+    className: Orbit
+  - hash:
+      serializedVersion: 2
+      Hash: 034ce496c64322bfc7e82aaef343c724
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.GUI
+    className: FpsViewer
+  - hash:
+      serializedVersion: 2
+      Hash: cff508f12256c238d9146343e5ce5ccb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.SceneManagement
+    className: PauseManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9383040fd050b0c9ee0f2ce2c463838a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Testing
+    className: TestSphereCastChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 6b86bf5ffa3a37bad820211928ebf41b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Cameras
+    className: OverheadZoomAndPan
+  - hash:
+      serializedVersion: 2
+      Hash: e6900b7cee6f5abb48b5d8e66351a0c4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVector2.SimpleMovers
+    className: CharacterControllerSimpleMover
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd3e9a615a402a5a498081a37ae6ddd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Minds
+    className: SimpleReflexMind
+  - hash:
+      serializedVersion: 2
+      Hash: 1e727b96c00f2f72ac6a196241143566
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Visualization
+    className: RayCastChecker
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 33e1c0c204847ca61e0cbbe3b8b7d9e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Audio
+    className: AudioPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: dcbc2c33051d26c91056ea65a7a05416
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Visualization
+    className: RayCastVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: AdvancedDropdownWindow
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 295831406da5907d41f58d84acd55d8d
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: fc169718e5fd24cea7425f24908c0418
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 0442900f11a4ff3f3bc2cd958a218ef6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.DebuggingTools.Visualization
+    className: BoxCaster
+  - hash:
+      serializedVersion: 2
+      Hash: 781c96a512f1736e8158418477edc43a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVector3.Movers
+    className: RigidbodyMover
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: b71eab6d4fbd0d3c78da00cf7474251f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.SceneManagement
+    className: SceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3c57f941a7eb341be85c8aba60a9d2b7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVector2.Movers
+    className: RigidbodyMover
+  - hash:
+      serializedVersion: 2
+      Hash: 75b6581972cc6f853d3da8895bec0a5e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Cameras
+    className: FadeOutLineOfSight
+  - hash:
+      serializedVersion: 2
+      Hash: 75f755566fb2fe6b8f711c09fffb3bbb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.DebuggingTools
+    className: MonoBehaviourEnabler
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: cff508f12256c238d9146343e5ce5ccb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Entities.V0
+    className: Entity
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 8da4daed2a4fe0395318ff3a58e17bfd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVectorXZ.SimpleMovers
+    className: TransformTranslateSimpleMover
+  - hash:
+      serializedVersion: 2
+      Hash: b7025fd691367ab44c3801ca3130a1a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Weebles
+    className: HealthBar
+  - hash:
+      serializedVersion: 2
+      Hash: 6ff09ec0a842fded339381d0bdac36a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.PerformanceMeasures
+    className: PerformanceCriteria
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 60eefce0567cd6811801ce8cf6dabfca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators
+    className: CleanActuator
+  - hash:
+      serializedVersion: 2
+      Hash: 16cd5779c0d8719ad69026f9bf74a4f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.SceneManagement
+    className: CountDown
+  - hash:
+      serializedVersion: 2
+      Hash: cff508f12256c238d9146343e5ce5ccb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.GameManagement
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: e233bc507063697bf7908d4f858fa28f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVector3.Movers
+    className: TransformTranslateMover
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: dcce479d8fe7d89e2e9de8ad197c948a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVectorXZ.Movers
+    className: RigidbodyMover
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 9383040fd050b0c9ee0f2ce2c463838a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Testing
+    className: TestBoxCastChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.DebuggingTools
+    className: RevealHiddenGameObjects
+  - hash:
+      serializedVersion: 2
+      Hash: 5d5b0c61f3ab6ff5f41b1bbe19764526
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 9584b4062ce0ad0d1ac42a1805c7c647
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVector3.SimpleMovers
+    className: TransformTranslateSimpleMover
+  - hash:
+      serializedVersion: 2
+      Hash: cff508f12256c238d9146343e5ce5ccb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Testing
+    className: TestExtendedMonoBehaviourLogging
+  - hash:
+      serializedVersion: 2
+      Hash: c898c2be98e33debf8f34ecc2b0fd43a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.DebuggingTools.Visualization
+    className: CapsuleCaster
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: f14a29d229f84969b736a2e75c1bad7a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Weebles
+    className: Health
+  - hash:
+      serializedVersion: 2
+      Hash: 349d08daa6108b9a28f8c38fd40ce96f
+    assemblyName: Unity.2D.SpriteShape.Runtime.dll
+    namespaceName: UnityEngine.U2D
+    className: SpriteShapeController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.EnhancedTouch
+    className: TouchSimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 287a4aa7392bcfb309b4d7b4dc89eb3c
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputEditor
+  - hash:
+      serializedVersion: 2
+      Hash: dcbc2c33051d26c91056ea65a7a05416
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Visualization
+    className: LineCastVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: db59cb2228fc44a47e67e2c9f063b678
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Audio
+    className: MusicPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: InputSystemUIInputModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionAssetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd3e9a615a402a5a498081a37ae6ddd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Minds
+    className: Mind
+  - hash:
+      serializedVersion: 2
+      Hash: d3f29ba27f28c1f558880c4df5545ed3
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: 
+    className: DownloadableSample
+  - hash:
+      serializedVersion: 2
+      Hash: eff5b929014d8050b4710e6fd4019a7f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Visualization
+    className: SphereCastChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 00cf83accdc7ccf03d47db0fe1c8df76
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Cameras
+    className: OverheadFollow
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 9adbed3446f051c23f49933432f52a53
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Visualization
+    className: SphereCastVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 76aef43e801605d1829c8805eeee135c
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: 1f4dd14eede11260d780d70500564816
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Audio
+    className: AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 898f45c9b9525bfaaa6f985e717456a8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.SceneManagement
+    className: MenuController
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: d023deeb43268a217b8f11a77cbbefb9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Cameras
+    className: NewOrbit
+  - hash:
+      serializedVersion: 2
+      Hash: 9adbed3446f051c23f49933432f52a53
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Visualization
+    className: BoxCastVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: cff508f12256c238d9146343e5ce5ccb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Cameras
+    className: Billboard
+  - hash:
+      serializedVersion: 2
+      Hash: a29e734162b10d10d8d755332670d092
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.GUI
+    className: MessageViewer
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 629b459440d61f08e790784a4ca0d8e0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Entities.V0
+    className: Agent
+  - hash:
+      serializedVersion: 2
+      Hash: da4cc51a02ce84afe2cecd27cfe6997a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 9383040fd050b0c9ee0f2ce2c463838a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Testing
+    className: TestLineCastChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 7eb60e3c3ea8ea390e7f6aa1fd09de27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVectorXZ.Movers
+    className: CharacterControllerMover
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 1e0c55b9c8b7a3abd678c51ba5c2929f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVector2.Movers
+    className: TransformTranslateMover
+  - hash:
+      serializedVersion: 2
+      Hash: 9383040fd050b0c9ee0f2ce2c463838a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Testing
+    className: TestCapsuleCastChecker
+  - hash:
+      serializedVersion: 2
+      Hash: da582d98ca3927dc62f0e96e967a4a74
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputSettings
+  - hash:
+      serializedVersion: 2
+      Hash: b991a5a058b6d610a5e6f03b3fc5a3a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVectorXZ.Movers
+    className: TransformTranslateMover
+  - hash:
+      serializedVersion: 2
+      Hash: c0a2bdb3d0d4cfadc78efe2cb77d5ec6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Sensors
+    className: PositionSensor
+  - hash:
+      serializedVersion: 2
+      Hash: d79be48f820686024dd0d9e080d7733b
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 4b3c2d56800c72ec9b4e8041def4528e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVector3.Movers
+    className: CharacterControllerMover
+  - hash:
+      serializedVersion: 2
+      Hash: f45e658e7dae575d0b4606a9ef1ce31d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Testing
+    className: TestChangeSpeedAction
+  - hash:
+      serializedVersion: 2
+      Hash: 0edeba255bdbade25edc357f1412ba38
+    assemblyName: Unity.2D.SpriteShape.Runtime.dll
+    namespaceName: UnityEngine.U2D
+    className: SpriteShape
+  - hash:
+      serializedVersion: 2
+      Hash: bbe2ed9b9e52691921ae296dcdc0540a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.DebuggingTools.Visualization
+    className: RayCaster
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: b1c4a33b28908aad1569128551715555
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Weebles
+    className: Weeble
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 523ce309f50d9eee6a8fc0e2f86c9c97
+    assemblyName: Unity.2D.SpriteShape.Runtime.dll
+    namespaceName: 
+    className: SpriteShapeGeometryCache
+  - hash:
+      serializedVersion: 2
+      Hash: bfeb96683d3796cadaab890bfdfe92be
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 9aa1948ba793ba1ec84056bd8e7410d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Testing
+    className: TestCapsuleCastVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 16ab14a56414f1bb5add79dbb71d29df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVectorXZ.SimpleMovers
+    className: CharacterControllerSimpleMover
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ad4af01eeb7f0a9ae0be2df3e0f1953a
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputStateWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 50d893c48b1c02a4b8ede5fe28ff9e85
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: TrackedDeviceRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 75d82cdc8c4eb5f12570aa378266875e
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 56907501a2eef7ac55486584a4705b2f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Messages
+    className: MessageQueue
+  - hash:
+      serializedVersion: 2
+      Hash: cfff56ab66d68138c368954c1b064223
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.SceneManagement
+    className: LoadProgress
+  - hash:
+      serializedVersion: 2
+      Hash: dc11d29996f525adf38047d66a5a9803
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.PerformanceMeasures
+    className: PerformanceMeasure
+  - hash:
+      serializedVersion: 2
+      Hash: ccf24ed1b06e45df79b5d033c16e1ec3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVector2.SimpleMovers
+    className: TransformTranslateSimpleMover
+  - hash:
+      serializedVersion: 2
+      Hash: e5798c78c20d9f256e5483f761721114
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVector2.SimpleMovers
+    className: RigidbodySimpleMover
+  - hash:
+      serializedVersion: 2
+      Hash: 9aa1948ba793ba1ec84056bd8e7410d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Testing
+    className: TestLineCastVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: c1f5356fcd27668ddc25078e27f9828d
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: MultiplayerEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 9164edf5102fa7dc5cea141679e10ca9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators
+    className: SlerpLookAtActuator
+  - hash:
+      serializedVersion: 2
+      Hash: 72763ba72b43403ee09a4c54b07cb346
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.XR
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: cff508f12256c238d9146343e5ce5ccb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.SceneManagement
+    className: LoaderCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 426e5bd616852254b77531cd1a8e29b6
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenStick
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9aa1948ba793ba1ec84056bd8e7410d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Testing
+    className: TestSphereCastVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 7c879c775ba04db735b16a6cf5bc126b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVectorXZ.SimpleMovers
+    className: RigidbodySimpleMover
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 81dc17b7fb78dc5027c91dd4da0c4e0c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Audio
+    className: SoundsPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 1e727b96c00f2f72ac6a196241143566
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Visualization
+    className: LineCastChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 285f5d7c369d870b93f4a2cbcec118e4
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDeviceDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: fc01a6222ab50f65dbf89515358d2d70
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.GUI
+    className: WeebleConsole
+  - hash:
+      serializedVersion: 2
+      Hash: edbdadfafca022af1c9355676570794f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Minds
+    className: SeekerMind
+  - hash:
+      serializedVersion: 2
+      Hash: c5fd7bfc1806f78178f8b5f91e072387
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: 9aa1948ba793ba1ec84056bd8e7410d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Testing
+    className: TestRayCastVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: b053f5a89e9a6e4af0c55cdfe3254480
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Actuators.Motion.Movers.UsingVector2.Movers
+    className: CharacterControllerMover
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 1058d7e5b58a3be3335f4533e7cd3608
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.GameManagement
+    className: InGameMenuController
+  - hash:
+      serializedVersion: 2
+      Hash: 766d1e816bcaf02d44dc1df06af2bf9a
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: cff508f12256c238d9146343e5ce5ccb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Entities.V0
+    className: TargetEntity
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9adbed3446f051c23f49933432f52a53
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Visualization
+    className: CapsuleCastVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: ede3d522ce29a72deb2613abda57d11e
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: RemoteInputPlayerConnection
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 74eb2345b13b108d97196499e62f4b49
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Sensors
+    className: TargetEntitySensor
+  - hash:
+      serializedVersion: 2
+      Hash: 91a2c3245ed9ae4314a8873efbb15771
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.DebuggingTools.Visualization
+    className: SphereCaster
+  - hash:
+      serializedVersion: 2
+      Hash: 642c577a3c3b1d3803943d335f639039
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Visualization
+    className: BoxCastChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 9aa1948ba793ba1ec84056bd8e7410d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Testing
+    className: TestBoxCastVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: d90f23e10d8397cbd6f7889e7071c8c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameBrains.Entities.V0
+    className: CleanableTile
+  platform: 2
+  scenePathNames:
+  - Assets/Scenes/GameBrains.unity
+  - Assets/Scenes/MainMenu.unity
+  - Assets/Scenes/Options.unity
+  - Assets/Scenes/Loading.unity
+  - Assets/Scenes/MyJanitorA1.unity
+  playerPath: /Users/cassidybarr/Documents/Game Dev/Clone/A1-CassidyBarr/A1-CassidyBarr/A1-CassidyBarr.app

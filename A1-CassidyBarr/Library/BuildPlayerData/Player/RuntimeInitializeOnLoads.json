@@ -1,0 +1,1 @@
+{"root":[{"assemblyName":"Assembly-CSharp","nameSpace":"GameBrains.DebuggingTools.Log4Net","className":"LoggingConfiguration","methodName":"Configure","loadTypes":1,"isUnityClass":false},{"assemblyName":"Unity.InputSystem","nameSpace":"UnityEngine.InputSystem","className":"InputSystem","methodName":"RunInitializeInPlayer","loadTypes":1,"isUnityClass":true}]}

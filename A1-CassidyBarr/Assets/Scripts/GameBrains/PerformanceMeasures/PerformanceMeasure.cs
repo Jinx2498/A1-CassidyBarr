@@ -15,8 +15,8 @@ namespace GameBrains.PerformanceMeasures
         
         // TODO for A1: What performance criteria are need?
         // TODO for A1 (optional): Replace individual criterion fields with a list to be filled in Awake or Start.
-        public PerformanceCriteria dirtAmountCollected = 0;
-        public PerformanceCriteria timeCleaning = 0;
+        public float dirtAmountCollected = 0;
+        public float timeCleaning = 0;
         
         [SerializeField] float performanceMeasure;
         [SerializeField] int updateInterval; // TODO: Use Regulator?
@@ -47,7 +47,7 @@ namespace GameBrains.PerformanceMeasures
             {
                 // Record the performance measure of this time interval
                 // TODO for A1: Create a performance measure and associated performance criteria.
-                if(timeCleaning > 0) {
+                if(timeCleaning >= 1) {
                     performanceMeasure = dirtAmountCollected/timeCleaning; // TODO for A1: Replace with weighted formula using criteria
                 }
                 var message = $"PerformanceMeasure: {performanceMeasure}";
@@ -56,6 +56,11 @@ namespace GameBrains.PerformanceMeasures
                 // Reset, and prepare for the next time interval
                 previousTime = Time.time;
             }
+        }
+
+        public void SuckDirt(float tileDirt, float time) {
+            dirtAmountCollected += tileDirt;
+            timeCleaning += time;
         }
     }
 }
