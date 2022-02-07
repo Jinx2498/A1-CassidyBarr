@@ -52,6 +52,8 @@ namespace GameBrains.Actuators.Motion.Movers.UsingVector3.Movers
                     // TODO for A1 (optional): Limit velocity change.
                     return;
                 case ChangeAccelerationAction changeAccelerationAction:
+
+                    
                     // TODO for A1: Change the acceleration. Set completion status.
                     // TODO for A1 (optional): Limit acceleration change.
                     return;

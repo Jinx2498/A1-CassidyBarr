@@ -24,6 +24,7 @@ namespace GameBrains.Actuators.Motion.Movers.UsingVector2.Movers
             // deltaP = (2 * Vinitial + A * t) / 2 * t
             // deltaP = Vinitial * t + A * t * t / 2
             float halfDeltaTimeSquared = (deltaTime * deltaTime) / 2;
+            double gravity = 9.8;
             Vector2 positionOffset = (Velocity * deltaTime) + (Acceleration * halfDeltaTimeSquared);
             Velocity += Acceleration * deltaTime;
 
@@ -46,6 +47,9 @@ namespace GameBrains.Actuators.Motion.Movers.UsingVector2.Movers
                 // characterController.Move(positionOffsetXYZ);
 
                 //TODO: Handle gravity.
+                positionOffset = (Velocity * deltaTime) + (Acceleration * halfDeltaTimeSquared) + (gravity * deltaTime);
+                characterController.Move(positionOffset / deltaTime);
+
             }
         }
     }

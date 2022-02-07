@@ -15,8 +15,8 @@ namespace GameBrains.PerformanceMeasures
         
         // TODO for A1: What performance criteria are need?
         // TODO for A1 (optional): Replace individual criterion fields with a list to be filled in Awake or Start.
-        public PerformanceCriteria criterionA;
-        public PerformanceCriteria criterionB;
+        public PerformanceCriteria dirtAmountCollected = 0;
+        public PerformanceCriteria timeCleaning = 0;
         
         [SerializeField] float performanceMeasure;
         [SerializeField] int updateInterval; // TODO: Use Regulator?
@@ -47,8 +47,9 @@ namespace GameBrains.PerformanceMeasures
             {
                 // Record the performance measure of this time interval
                 // TODO for A1: Create a performance measure and associated performance criteria.
-                performanceMeasure = 0; // TODO for A1: Replace with weighted formula using criteria
-
+                if(timeCleaning > 0) {
+                    performanceMeasure = dirtAmountCollected/timeCleaning; // TODO for A1: Replace with weighted formula using criteria
+                }
                 var message = $"PerformanceMeasure: {performanceMeasure}";
                 Agent.DisplayMessage(message);
                 
